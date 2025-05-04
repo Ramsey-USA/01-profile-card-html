@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt Ramsey's Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Remove bullet points and add spacing to the list */
+        .favorites ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove default padding */
+        }
+
+        .favorites ul li {
+            margin: 10px 0; /* Add spacing between list items */
+        }
+
+        /* Resize the image to fit better inside the profile card */
+        header img {
+            width: 140px; /* Set a fixed width */
+            height: 140px; /* Set a fixed height */
+            border-radius: 50%; /* Make the image circular */
+            margin: 10px auto; /* Add spacing around the image */
+            display: block; /* Center the image */
+            object-fit: cover; /* Ensure the image fits within the dimensions */
+        }
+
+        .profile p:nth-of-type(1),
+        .profile p:nth-of-type(2) {
+            margin: 0; /* Remove spacing between location and email */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/cover-letter-pic.jpg" alt="Cover Letter Pic" style="max-width: 100%; height: auto;">
+    </header>
+    <main>
+        <h1>Matthew Jon Ramsey</h1>
+        <section class="profile">
+            <h2>Operations & Marketing Executive</h2>
+            <p><strong>Tri-Cities, WA</strong></p>
+            <p></strong> <a href="mailto:mjramsey1@asu.edu">mjramse1@asu.edu</a></p>
+            <p><strong>Dynamic Navy veteran with over 10 years of leadership in operations management, digital marketing, and client-focused sales across construction, hospitality, and fitness sectors. Drove 92%+ Airbnb occupancy and 30%+ fitness client growth through targeted digital campaigns, SEO, and persuasive negotiations. Excelled in managing $5,000-$500,000 projects and $5M+ logistics, leveraging CRM tools, Proven Jobs (PSA), and Google Workspace to optimize processes and elevate brands. Skilled in stakeholder coordination, KPI monitoring, and multimedia advertising, with a passion for solving business challenges and fostering Tri-Cities community growth. Holds an AAS in Business Administration (Honors, 2023) and pursues a BAS in Operations Management (ASU, 3.8 GPA, expected May 2026).</p>
+        </section>
+        <section class="favorites">
+            <h2>My Favorite Websites</h2>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Profile Card. All rights reserved.</p>
+    </footer>
+</body>
+</html>
