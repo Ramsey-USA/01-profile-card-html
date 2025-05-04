@@ -19,13 +19,27 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
     max-width: 800px; /* Limit the card width */
     margin: 20px auto; /* Center the card horizontally */
-    font-family: 'Open Sans', sans-serif, monospace; /* Use Open Sans and monospace fonts */
+    text-align: center; /* Center content inside the card */
+}
+
+.profile img {
+    width: 140px; /* Set a fixed width */
+    height: 140px; /* Set a fixed height */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 15px; /* Add spacing below the image */
+    object-fit: cover; /* Ensure the image fits within the dimensions */
+}
+
+.profile h1 {
+    font-size: 2.5rem; /* Adjust font size for the main heading */
+    margin: 10px 0; /* Add spacing around the heading */
+    color: darkgreen; /* Set color for the main heading */
 }
 
 .profile h2 {
-    font-size: 2rem; /* Keep the subheading size */
-    margin: 0; /* Remove top and bottom spacing */
-    color: rgb(6, 31, 102); /* Set H2 color */
+    font-size: 1.8rem; /* Adjust font size for the subheading */
+    margin: 5px 0; /* Add spacing around the subheading */
+    color: rgb(6, 31, 102); /* Set color for the subheading */
 }
 
 .profile h3 {
